@@ -1,0 +1,29 @@
+1. Passengers arrive and are put into a queue if there isn't a valid 
+configuration or if the boat is not there. If the boat is there and there is
+a valid configuration then they wake hte other passengers' threads with a 
+signal and tell them to get on the boat, and then they signal the boat to go.
+If the boat arrives and there's already a valid 3 person configuration then 
+the boat wakes their threads and then sets off. Passengers on the boat are held
+in a condition variable wait stopping them from doing anything until the boat is
+done and signals them to get off.  
+
+2. Every boat load only ever could load 3 total people. There isn't code to take
+any more. It can never take less than 3 people since it's only ever allowed 
+through a condition variable if there is a valid configuration of 3 people. 
+
+3. Every time the boat arrives and every time a new passenger stops for the boat
+there is a check to see if a valid configuration is there. In that case, whoever 
+just arrives wakes the other threads that would enter the boat and their ID is 
+logged. The boat and moniter then tally up their id's and the boat sets off. 
+
+4. 
+a) Nobody can get off before the crossing completes because they are locked in
+a condition variable that stops their threads from continuing until the boat 
+stops and signals them. 
+b) While the boat is crossing the river there is a flag that automatically pushes
+new passengers into a waiting condition, which is only allowed to be freed when
+the boat arrives back and un-sets the flag. 
+c) Every person who starts the wait automatically registers themselves and are 
+held in a waiting queue. Nobody that isn't in the condition variable queue can
+get on the boat. 
+d) Same explanation as a)

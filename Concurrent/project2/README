@@ -1,0 +1,30 @@
+--------------------------------------------------------
+  NAME : Collin Thompson               USER ID : collint
+  DUE DATE : 10/04/2023 1 day late                               
+  PROGRAM ASSIGNMENT 2                                  
+  FILE NAME : README                                    
+--------------------------------------------------------
+
+
+1. My program takes in an stdin input of 3 integers and 3 arrays. It then
+creates a shared memory space and inserts the stdin data into it. It then 
+calls qsort and merge using argv, gives them the shared key, and they sort
+the first array and merge the other two arrays into a final array. 
+
+2. It works because every process has access to the shared memory segment and
+is able to modify it. 
+
+3. I only allocate one shared memory segment, and construct it using the data
+structure specified in main.c's function "input to shmem"'s documentation. 
+
+4. There are no potential race conditions because each new process writes to
+an address space entirely unique to it. No two processes ever try to modify the
+same data concurrently.
+
+5. 5 and 6 both have the same answer since they both recieve the same 
+arguments. 
+
+6. Create an array argv[]. Fill it with values 
+    {(program to run), (shared memory ID), NULL}.
+Since there is only one shared memory segment every called program recieves
+the same ID.    

@@ -1,0 +1,67 @@
+--------------------------------------------------------
+NAME : Collin Thompson                 User ID: collint
+DUE DATE : 10/16/2023
+PROGRAM ASSIGNMENT 3
+FILE NAME : README
+--------------------------------------------------------
+
+
+1. There are no race conditions. Each thread pulls from a set of data that no
+other thread operates on and outputs to its own individual section of the 
+memory. No more threads are created that could access data that is being 
+modified until all threads are completed and exited. 
+
+2. With the current implementation of the program, it cannot. That would create
+a race condition which requires all threads to read all data before a thread 
+can write back to the array. 
+
+3. The usage of semaphores should allow for each thread to read data, modify
+it, and to input back into the array in a way which produces a correct result.
+A cursory thought would be to have some system keeping track of if all threads
+have completed reading the data they need to complete their operation, allow
+them to all compute the result, and to wait until all threads have read the
+data they need before they are able to write back to the array. 
+
+4.
+Base case:
+
+Let B = {{1, 2, ..., b_x}, {0, 0, ...}, ...}
+let a = 1
+let o = 2^(a - 1)
+
+for(i to b[a].length)
+    if(i-0 < 1)
+        B[a][i] = B[a-1][i] //copy previous value
+    else
+        B[a][i] = B[a-1][i] + B[a-1][i-o] //prefix sum assign
+
+value of B will be {{1, 2, ..., b_x}, {1, 3, ..., b_x + b_(x - 1)}, ...}
+    =  {{b_1, b_2, ..., b_x}, {b_1, b_2 + b_1, ..., b_x + b_(x - o)}, ...}
+
+For the given input, each successive array a in B will contain the calculated 
+    prefix value of offset 1.
+This concludes the base case 
+
+
+Inductive step: 
+
+Assume data is correct
+let B be the 2d array which holds the integer data
+let a be the index of the current array of integers
+let i be the current index the data being accessed and being written to B[a][i]
+let o be the difference between i and the index of the data i is added to
+    as a part of the postfix
+    where o = 2^a-1 
+
+B = {..., {b_1, ..., b_o, ..., b_x}, {0, ..., 0}, ...}
+    (a - 1)^  ^(a)
+let a = k + 1
+let o = 2^(a - 1) = 2^(k)
+
+Post algorithm 
+B = {..., {b_1, ..., b_o, ..., b_x}, {b_1, ..., b_o + b_1, ... b_x + b_(x - o)}}
+
+This concludes the inductive step
+
+For any arbitrary values in B and for each iteration, The computation of 
+prefix addition will work properly. 

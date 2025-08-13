@@ -1,0 +1,86 @@
+	Thread 0 created
+	Thread 0 copies x[0]
+	Thread 0 Exits
+	Thread 1 created
+	Thread 1 computes x[0] + x[0]
+	Thread 1 Exits
+	Thread 2 created
+	Thread 2 computes x[1] + x[0]
+	Thread 2 Exits
+	Thread 3 created
+	Thread 3 computes x[2] + x[0]
+	Thread 3 Exits
+	Thread 4 created
+	Thread 4 computes x[3] + x[0]
+	Thread 4 Exits
+	Thread 5 created
+	Thread 5 computes x[4] + x[0]
+	Thread 5 Exits
+	Thread 6 created
+	Thread 6 computes x[5] + x[0]
+	Thread 6 Exits
+	Thread 7 created
+	Thread 7 computes x[6] + x[0]
+	Thread 7 Exits
+	Thread 0 created
+	Thread 0 copies x[0]
+	Thread 0 Exits
+	Thread 1 created
+	Thread 1 copies x[1]
+	Thread 1 Exits
+	Thread 3 created
+	Thread 2 created
+	Thread 3 computes x[1] + x[0]
+	Thread 2 computes x[0] + x[0]
+	Thread 3 Exits
+	Thread 2 Exits
+	Thread 5 created
+	Thread 5 computes x[3] + x[0]
+	Thread 5 Exits
+	Thread 6 created
+	Thread 6 computes x[4] + x[0]
+	Thread 6 Exits
+	Thread 4 created
+	Thread 4 computes x[2] + x[0]
+	Thread 4 Exits
+	Thread 7 created
+	Thread 7 computes x[5] + x[0]
+	Thread 7 Exits
+	Thread 0 created
+	Thread 0 copies x[0]
+	Thread 0 Exits
+	Thread 1 created
+	Thread 1 copies x[1]
+	Thread 1 Exits
+	Thread 2 created
+	Thread 2 copies x[2]
+	Thread 2 Exits
+	Thread 3 created
+	Thread 3 copies x[3]
+	Thread 3 Exits
+	Thread 6 created
+	Thread 6 computes x[2] + x[0]
+	Thread 6 Exits
+	Thread 5 created
+	Thread 5 computes x[1] + x[0]
+	Thread 4 created
+	Thread 5 Exits
+	Thread 4 computes x[0] + x[0]
+	Thread 4 Exits
+	Thread 7 created
+	Thread 7 computes x[3] + x[0]
+	Thread 7 Exits
+Number of input data = 8
+Input array: 
+	7 1 3 2 8 4 5 9 
+Run 1:
+Results after run 1:
+	7 1 3 2 8 4 5 9 
+Run 2:
+Results after run 2:
+	7 1 3 2 8 4 5 9 
+Run 3:
+Results after run 3:
+	7 1 3 2 8 4 5 9 
+Final result after run 4:
+	7 1 3 2 8 4 5 9 

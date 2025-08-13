@@ -1,0 +1,32 @@
+CC       = c++
+FLAGS    = -no-pie
+CFLAGS   = -g -O2 -Wno-write-strings -Wno-cpp
+DFLAGS   = -DPACKAGE=\"threadsystem\" -DVERSION=\"1.0\" -DPTHREAD=1 -DUNIX_MSG_Q=1 -DSTDC_HEADERS=1
+IFLAGS   = -I/local/eit-linux/apps/ThreadMentor/include
+TMLIB    = /local/eit-linux/apps/ThreadMentor/Visual/libthreadclass.a
+TMLIB_NV    = /local/eit-linux/apps/ThreadMentor/NoVisual/libthreadclass.a
+
+OBJ_FILE = incrementer.o decrementer.o count.o count-mon.o
+EXE_FILE = count-mon
+
+${EXE_FILE}: ${OBJ_FILE}
+	${CC} ${FLAGS}  -o ${EXE_FILE}  ${OBJ_FILE} ${TMLIB} -lpthread
+
+decrementer.o: decrementer.cpp
+	${CC} ${DFLAGS} ${IFLAGS} ${CFLAGS} -c decrementer.cpp
+
+incrementer.o: incrementer.cpp
+	${CC} ${DFLAGS} ${IFLAGS} ${CFLAGS} -c incrementer.cpp
+
+count.o: count.cpp
+	${CC} ${DFLAGS} ${IFLAGS} ${CFLAGS} -c count.cpp
+
+count-mon.o: count-mon.cpp
+	${CC} ${DFLAGS} ${IFLAGS} ${CFLAGS} -c count-mon.cpp
+
+
+noVisual: ${OBJ_FILE}
+	${CC} ${FLAGS}  -o ${EXE_FILE}  ${OBJ_FILE} ${TMLIB_NV} -lpthread
+					
+clean:
+	rm -f ${OBJ_FILE} ${EXE_FILE}

@@ -1,0 +1,27 @@
+czy.c
+czy  : 92.3%
+gzip : 49.8%
+
+czy
+czy  : 75.6%
+gzip : 22.1%
+
+dzy.c
+czy  : 93.9%
+gzip : 49.0%
+
+dzy
+czy  : 75.4%
+gzip : 21.9%
+
+bitsy.c
+czy  : 92.3%
+gzip : 38.8%
+
+bitsy.h
+czy  : 102.0%
+gzip : 70.6%
+
+bitsy.o
+czy  : 68.7%
+gzip : 33.0%

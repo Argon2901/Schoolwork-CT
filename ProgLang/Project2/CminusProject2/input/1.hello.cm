@@ -1,0 +1,5 @@
+int main() {
+	write("Hello world!");
+	write("How are you?");
+	write(5);
+}

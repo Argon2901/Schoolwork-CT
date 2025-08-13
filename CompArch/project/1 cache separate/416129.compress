@@ -1,0 +1,13 @@
+Total Memory Calls:     5667463
+L1 information:
+Clock ticks:            26166352 
+Cache hits:             2115932 
+Cache misses:           97764 
+Cache read writeback:   61490 
+Cache write writeback:  35021 
+iCache information:
+Clock ticks:            10982249 
+Cache hits:             3447619 
+Cache misses:           6148 
+Cache read writeback:   0 
+Cache write writeback:  0 

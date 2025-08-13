@@ -1,0 +1,17 @@
+This directory contains examples for using the ThreadMentor library.
+Additional examples are available at: https://pages.mtu.edu/~shene/NSF-3/e-Book/index.html
+
+NOTE: You cannot compile the code from this directory because you are not allowed to write to the directory.  Copy the code to your own directory and then compile with "make -f Makfile-name".
+
+Each example has its own Makfile.
+
+quicksort : Single class derived from thread. Threads create new instances of the thread class recursively.  Does a quick sort.  The main application is "quicksort".  The makefile is "Makefile-quicksort".
+
+pingpong : Create and use two different classes derived from the Thread class within one application.  One class of threads prints "ping".  The other prints "pong".  The main application is "pingpong".  The makefile is "Makefile-pingpong".
+
+dphil : Solution to the Dining Philosophers problem.  Demonstrates use of semaphores.  The main application is "dphil". The makefile is "Makefile-dphil".  
+
+count-mon :  Simple monitor to increment and decrement a shared counter.  Demonstrates use of the monitor class.  The makefile is "Makefile-count".  The main application is "count-mon".
+
+
+

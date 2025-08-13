@@ -1,0 +1,48 @@
+1. A semaphore stops baby eagles from entering the "eating" state which is only
+ever signaled by the mother in the quantities of the total number of pots. 
+Baby eagles are also not allowed to ever signal to the mother until all pots 
+are finished, and since there is a last eagle that finished and will make the
+condition true the mother will always be signaled. 
+
+2. The semaphore "pots" lets babies through if the mother fills them. If all
+of the semaphore signals are consumed then the baby will not go through to eat.
+In the ending flush they will not eat because they will be caught and told to 
+exit. 
+
+3. If there is a signal left in "pots" then the baby will be let through and
+allowed to eat. 
+
+4. Hungry babies will be stopped by the semaphore "pots" and not be allowed to
+continue. The caveat is with the ending flush of all waiting hungry babies, in 
+which case there is an if clause that tell babies to exit if the mother has 
+retired and there is no food left to eat. 
+
+5. My program doesn't keep track of individual pots. It has a set of pots and 
+assumes that all babies eat pots in ascending order. The modification to the 
+variable that increments the pot used is protected under a mutex, so only one 
+thread can modify it at a time and therefor no two birds will have the same pot.
+
+6. A flag dictates that only one baby can ever run the code to wake the mother.
+this flag is modified in a mutex, so there is no scenario in which 2 separate 
+babies can wake the mother.
+
+7. The mother sleeps until she is woken up by a semaphore signal. While she can 
+be set to wake up before she falls asleep, she must always wait for one of the 
+babies to signal the semaphore before she is able to awake. 
+
+8. A flag that says that mother can be woken is only ever set in the mother's 
+sleep function, so children can only be up to wake her after she's fallen asleep.
+
+9. Assuming that feeding pots are fed from at the point of messaging, then the 
+babies cannot ever feed until all pots are full. Since the mother's filling of 
+the pots is within the mutex, nothing else can happen until all the pots are 
+filled and the mother has exited the mutex. The feeding is protected within the 
+same mutex, so children can only feed once the mother is done filling all pots.
+
+10. After the pots are filed her sleep function is called. 
+
+11. I impliment this requirement using a counter that tracks how many pots are
+being eaten from and a flag saying the mother is done. If the mother is done and
+all pots are being consumed, then I tell the children to exit when they try to
+get food. This only happens after the semaphore is flooded to free them, right
+before they actually get food at a feeding pot. 

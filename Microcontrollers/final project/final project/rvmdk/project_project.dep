@@ -1,0 +1,21 @@
+Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_TM4C123.s)(0x68028F05)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\ti\TivaWare_C_Series-2.1.0.12573-I.\RTE\_project-IC:\winapps\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\winapps\Keil_v5\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"-o .\rvmdk\startup_tm4c123.o --depend .\rvmdk\startup_tm4c123.d)
+F (.\project.c)(0x68028FEB)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I C:\ti\TivaWare_C_Series-2.1.0.12573 -I C:\winapps\ti\TivaWare_C_Series-2.2.0.295 --c99-I.\RTE\_project-IC:\winapps\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\winapps\Keil_v5\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F232H5BB -DTARGET_IS_TM4C123_RA3-o .\rvmdk\project.o --omf_browse .\rvmdk\project.crf --depend .\rvmdk\project.d)
+I (C:\winapps\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x614241BD)
+I (C:\winapps\Keil_v5\ARM\ARMCC\include\stdint.h)(0x614241BD)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h)(0x60CA1D11)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x60CA1D10)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\debug.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\pwm.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\rom.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\adc.h)(0x60CA1CD2)
+I (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h)(0x60CA1CD2)
+I (audio.h)(0x68028920)
+F (.\audio.h)(0x68028920)()
+F (C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib\rvmdk\driverlib.lib)(0x60CA1CD2)()
+F (.\readme.txt)(0x68028492)()

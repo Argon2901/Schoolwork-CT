@@ -1,0 +1,15 @@
+.\rvmdk\project.o: project.c
+.\rvmdk\project.o: C:\winapps\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\project.o: C:\winapps\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\inc/tm4c123gh6pm.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/debug.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/gpio.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/pwm.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/rom.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/sysctl.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/timer.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/interrupt.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/adc.h
+.\rvmdk\project.o: C:\winapps\ti\TivaWare_C_Series-2.2.0.295\driverlib/pin_map.h
+.\rvmdk\project.o: audio.h

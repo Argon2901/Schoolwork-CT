@@ -1,0 +1,12 @@
+Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
+F (.\project.c)(0x59AECF7C)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\.. --c99-I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F232H5BB -DTARGET_IS_TM4C123_RA3 -o .\rvmdk\project.o --omf_browse .\rvmdk\project.crf --depend .\rvmdk\project.d)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdbool.h)(0x51C86004)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Users\cmcischk\Documents\inc\hw_memmap.h)(0x00000000)
+I (C:\Users\cmcischk\Documents\driverlib\debug.h)(0x00000000)
+I (C:\Users\cmcischk\Documents\driverlib\gpio.h)(0x00000000)
+I (C:\Users\cmcischk\Documents\driverlib\rom.h)(0x00000000)
+I (C:\Users\cmcischk\Documents\driverlib\sysctl.h)(0x00000000)
+F (.\startup_rvmdk.S)(0x59AECF7C)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Luminary"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rvmdk\driverlib.lib)(0x59AECF78)()
+F (.\readme.txt)(0x59AECF7C)()

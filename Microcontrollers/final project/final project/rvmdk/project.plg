@@ -1,0 +1,414 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\cmcischk\Documents\EE 3171 Labs\PWMLED\project.uvproj
+Project File Date:  09/05/2017
+
+<h2>Output:</h2>
+Rebuild target 'project'
+compiling project.c...
+project.c(78): error:  #20: identifier "PWM_BASE" is undefined
+project.c(86): warning:  #111-D: statement is unreachable
+project.c(86): error:  #117: non-void function "main" should return a value
+assembling startup_rvmdk.S...
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 2 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'project'
+compiling project.c...
+project.c(78): error:  #20: identifier "PWM_BASE" is undefined
+project.c(86): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'project'
+compiling project.c...
+project.c(79): error:  #20: identifier "PWM_BASE" is undefined
+project.c(87): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'project'
+compiling project.c...
+project.c(87): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1468 RO-data=544 RW-data=0 ZI-data=256  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(87): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1468 RO-data=544 RW-data=0 ZI-data=256  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(76): error:  #20: identifier "GPIO_PF2_M1PWM6" is undefined
+project.c(87): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Rebuild target 'project'
+compiling project.c...
+project.c(88): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1472 RO-data=544 RW-data=0 ZI-data=256  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(88): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1472 RO-data=544 RW-data=0 ZI-data=256  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1852 RO-data=996 RW-data=0 ZI-data=256  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(89): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1864 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(89): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=1860 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2168 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2164 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2164 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2164 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2160 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2164 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2168 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2168 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'project'
+compiling project.c...
+project.c(93): warning:  #111-D: statement is unreachable
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2172 RO-data=1012 RW-data=4 ZI-data=260  
+After Build - User command #1: fromelf --bin --output .\rvmdk\project.bin .\rvmdk\project.axf
+".\rvmdk\project.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\cmcischk\\Documents\\EE 3171 Labs\\PWMLED\\rvmdk\\project.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
